@@ -1,0 +1,465 @@
+/*--------------------------------------------------------------
+ * ## SOCIAL SHARE ICONS BACKGROUND
+ *--------------------------------------------------------------
+*/
+
+.wcss-facebook .wcss-share-btn{
+    background: #3b5998;
+}
+
+.wcss-twitter .wcss-share-btn{
+    background: #4da7de;
+}
+
+.wcss-pinterest .wcss-share-btn{
+    background: #c92619;
+}
+
+.wcss-email .wcss-share-btn{
+    background: #dd4b39;
+}
+
+.wcss-linkedin .wcss-share-btn{
+    background: #3371b7;
+}
+
+.wcss-blogger .wcss-share-btn{
+    background: #ec661c;
+}
+
+.wcss-buffer .wcss-share-btn{
+    background: #323b43;
+}
+
+.wcss-digg .wcss-share-btn{
+    background: #1d1d1b;
+}
+
+.wcss-flipboard .wcss-share-btn{
+    background: #dd3c3c;
+}
+
+.wcss-odnoklassniki .wcss-share-btn{
+    background: #c97430;
+}
+
+.wcss-pocket .wcss-share-btn{
+    background: #c54656;
+}
+
+.wcss-reddit .wcss-share-btn{
+    background: #e74a1e;
+}
+
+.wcss-skype .wcss-share-btn{
+    background: #269ecb;
+}
+
+.wcss-stumbleupon .wcss-share-btn{
+    background: #e64011;
+}
+
+.wcss-telegram .wcss-share-btn{
+    background: #156e9b;
+}
+
+.wcss-tumblr .wcss-share-btn{
+    background: #45556c;
+}
+
+.wcss-whatsapp .wcss-share-btn{
+    background: #31b641;
+}
+
+.wcss-xing .wcss-share-btn{
+    background: #198c8f;
+}
+
+/*--------------------------------------------------------------
+ * ## SOCIAL SHARE ICONS
+ *--------------------------------------------------------------
+*/
+
+[class^="wcss-icon-"] {
+    color: #ffffff;
+    display: block;
+    height: 100%;
+    text-align: center;
+    width: 100%;
+}
+
+.wcss-icon-facebook {
+    background: #2f4574;
+}
+
+.wcss-icon-twitter {
+    background: #2791d1;
+}
+
+.wcss-icon-pinterest {
+    background: #9c1d13;
+}
+
+.wcss-icon-googleplus {
+    background: #c23321;
+}
+
+.wcss-icon-linkedin {
+    background: #28588f;
+}
+
+.wcss-icon-blogger{
+    background: #c55110;
+}
+
+.wcss-icon-buffer{
+    background: #1c2126;
+}
+
+.wcss-icon-digg{
+    background: #030302;
+}
+
+.wcss-icon-gmail{
+    background: #c23321;
+}
+
+.wcss-icon-flipboard{
+    background: #e12828;
+}
+
+.wcss-icon-odnoklassniki{
+    background: #ed812b;
+}
+
+.wcss-icon-pocket{
+    background: #ef4056;
+}
+
+.wcss-icon-reddit{
+    background: #ff4500;
+}
+
+.wcss-icon-skype{
+    background: #00aff0;
+}
+
+.wcss-icon-stumbleupon{
+    background: #b7330d;
+}
+
+.wcss-icon-telegram{
+    background: #0088cc;
+}
+
+.wcss-icon-tumblr{
+    background: #313d4d;
+}
+
+.wcss-icon-whatsapp{
+    background: #43d854;
+}
+
+.wcss-icon-xing{
+    background: #026466;
+}
+
+/*--------------------------------------------------------------
+ * ## WCSS-SOCIAL-SHARING
+ *--------------------------------------------------------------
+*/
+
+.wcss-social-sharing {
+    margin: 15px 0;
+    position: relative;
+}
+
+.wcss-social-sharing .wcss-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.wcss-social-sharing  ul {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.wcss-social-sharing  ul li{
+    display: inline-block;
+    margin: 0 7px 7px 0;
+}
+
+/* Social Share Buttons */
+.wcss-social-sharing .wcss-share-btn,
+.wcss-social-sharing .wcss-all-network-link{
+    border-radius: 0;
+    border: 0;
+    box-shadow: none;
+    color: #fff;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    font-size: 18px;
+    line-height: 40px;
+    height: 40px;
+    margin-bottom: 0;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+    width: 40px;
+
+    transition: all 0.5s ease;
+}
+
+.wcss-social-sharing .wcss-share-btn .wcss-text{
+    display: none;
+}
+
+.wcss-social-sharing .wcss-share-btn:hover,
+.wcss-social-sharing .wcss-share-btn:focus{
+    box-shadow: none;
+    color: #fff;
+    text-decoration: none;
+    outline: 0;
+}
+
+.wcss-social-sharing .wcss-small{
+    font-size: 14px;
+    line-height: 32px;
+    height: 32px;
+    width: 32px;
+}
+
+.wcss-social-sharing .wcss-large{
+    font-size: 21px;
+    line-height: 50px;
+    height: 50px;
+    width: 50px;
+}
+
+.wcss-social-sharing .wcss-all-network-link {
+    background: #d1d1d1;
+    color: #252525;
+}
+
+.wcss-social-sharing .wcss-all-network-link:before {
+    content: "\f141";
+    display: inline-block;
+    font-family: 'FONT AWESOME 5 FREE';
+    font-weight: 900;
+}
+
+/*--------------------------------------------------------------
+ * ## WCSS-SOCIAL-SHARING POSTION
+ *--------------------------------------------------------------
+*/
+
+/*Sharing Icons Fixed in the Left*/
+
+.wcss-social-sharing.wcss-fixed-content {
+    left: 0;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    z-index: 999;
+}
+
+.wcss-social-sharing.wcss-fixed-content .wcss-title,
+.wcss-social-sharing.wcss-featured-image .wcss-title{
+    display: none;
+    visibility: hidden;
+}
+
+.wcss-social-sharing.wcss-fixed-content ul li{
+    display: block;
+    line-height: normal;
+    margin: 0;
+}
+
+.wcss-social-sharing.wcss-fixed-content a.wcss-share-btn{
+    border-radius: 0;
+    -webkit-border-radius: 0;
+}
+
+.wcss-social-sharing.wcss-fixed-content .wcss-share-btn:hover,
+.wcss-social-sharing.wcss-fixed-content .wcss-all-network-link:hover {
+    width: 55px;
+}
+
+.wcss-social-sharing.wcss-fixed-content .wcss-small:hover{
+    width: 45px;
+}
+
+.wcss-social-sharing.wcss-fixed-content .wcss-large:hover{
+    width: 65px;
+}
+
+/*Sharing icons in Featured Images*/
+.wcss-featured-image-wrap{
+    position: relative;
+}
+
+.wcss-featured-image-wrap .wcss-social-sharing{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    opacity: 1;
+    transition: opacity 0.3s ease-in;
+}
+
+/* .wcss-featured-image-wrap:hover .wcss-social-sharing{
+    opacity: 1;
+} */
+
+/* Show whatsapp only in mobile */
+.wcss-social-sharing .wcss-social-sharing .wcss-whatsapp{
+    display: none;
+}
+.wcc-onmobile .wcss-social-sharing .wcss-social-sharing  .wcss-whatsapp{
+    display: inline-block;
+}
+
+/*--------------------------------------------------------------
+ * ## WCSS-POPUP
+ *--------------------------------------------------------------
+*/
+
+.wcss-all-networks-container .wcss-popup-overlay{
+    background: rgba(0,0,0,.5);
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    visibility: hidden;
+    z-index: 999;
+    -webkit-transition: all .35s;
+    transition: all .35s;
+}
+
+.wcss-all-networks-container .wcss-popup-wrapper{
+    background: #fff;
+    border-radius: 0;
+    left: 0;
+    max-width: 750px;
+    margin: 0 auto;
+    opacity: 0;
+    padding: 40px;
+    position: fixed;
+    right: 0;
+    top: 50%;
+    visibility: hidden;
+    z-index: 999;
+
+    -webkit-transform: translateY(-40%);
+    -ms-transform: translateY(-40%);
+    transform: translateY(-40%);
+
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+.wcss-popup-wrapper ul {
+    list-style: none;
+    margin: 0 -5px;
+    padding: 0;
+}
+
+.wcss-popup-wrapper ul li{
+    float: left;
+    margin-top: 10px;
+    padding: 0 5px;
+    width: 32%;
+}
+
+.wcss-popup-wrapper li a {
+    align-items: center;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+.wcss-popup-wrapper li a [class^="wcss-icon-"] {
+    height: 40px;
+    line-height: 40px;
+    margin-right: 10px;
+    width: 40px;
+}
+
+body.wcss-popup-enable .wcss-all-networks-container .wcss-popup-overlay {
+    visibility: visible;
+    opacity: 1;
+}
+
+body.wcss-popup-enable .wcss-all-networks-container .wcss-popup-wrapper{
+    visibility: visible;
+    opacity: 1;
+
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.wcss-close-btn{
+    background: #303030;
+    color: #ffffff !important;
+    font-weight: 700;
+    height: 30px;
+    line-height: 30px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-align: center;
+    text-decoration: none;
+    width: 30px;
+}
+
+.wcss-close-btn:hover{
+    background: #101010;
+}
+
+/*--------------------------------------------------------------
+ * ## RESPONSIVE
+ *--------------------------------------------------------------
+*/
+
+@media (max-width: 1024px){
+
+    .wcss-popup-wrapper ul li{
+        width: 33.3333%;
+    }
+}
+
+
+@media (max-width: 767px){
+
+    .wcss-all-networks-container .wcss-popup-wrapper{
+        max-height: 80vh;
+        overflow: hidden;
+        padding: 40px 20px;
+    }
+
+    .wcss-popup-wrapper ul {
+        height: calc(80vh - 80px);
+        overflow-y: scroll;
+        padding: 0 20px;
+    }
+
+    .wcss-popup-wrapper ul li{
+        width: 50%;
+    }
+}
+
+@media (max-width: 480px){
+
+    .wcss-popup-wrapper ul li{
+        float: none;
+        width: 100%;
+    }
+}
